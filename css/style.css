@@ -1,0 +1,106 @@
+*{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        
+        body{
+            background-color: rgba(224, 124, 216,);
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation: colorChange 5s infinite alternate;
+        }
+
+        #menu{
+            background-color: gray;
+            width: auto;
+            /*height: 80pxcomment;*/
+            color:white;
+            padding: 20px 50px;
+            text-align: right;
+            border-radius: 5px;
+        }
+                #menu a{
+            color: #fff;
+            font-weight: 600;
+            background-color: rgb(18, 18, 65);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #menu a:hover{
+            background-color: chartreuse;
+        }
+
+        #hero{
+            background-color: rgb(45, 19, 70);
+            height: 500;
+            width: auto;
+            border-radius: 5px;
+            margin-top: 5px;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #hero h1{
+            color: white;
+            font-size: 60px;
+        }
+
+        #hero p{
+            color: #fff;
+            font-size: 30px;
+        }
+
+        #hero a{
+            background-color: black;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        #hero a:hover{
+            background-color: maroon;
+        }
+
+        #courses{
+            margin-top: 30px;
+        }
+
+        #courses h1{
+            text-align: center;
+            color: rgb(17, 17, 49);
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        #courses img{
+            height: 150px;
+            margin: 0px 5px;
+            border-radius: 100px;
+        }
+
+        #courses img:hover{
+            background-color: blueviolet;
+        }
+
+        #hero img{
+            height: 150px;
+            size: 50px;
+            border-radius: 100px;
+            float: right;
+            margin-top: -100px;
+        }
+
+        @keyframes colorChange{
+            0%{background-image: url(../images/meadow-8071932_1280.jpg)}
+            25%{background-image: url(../images/christmas-5815034_1280.jpg)}
+            50%{background-image: url(../images/christmas-balls-6837253_1280.jpg)}
+            70%{background-image: url(../images/tech.png)}
+            100%{background-image: url(../images/nature-3082832_1280.jpg)}
+        }
+
